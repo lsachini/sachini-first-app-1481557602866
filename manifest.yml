@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: sachini-first-app
+  host: sachini-first-app
+  disk_quota: 1024M
+  services:
+  - sachini-first-app-AdvancedMobileAccess
+  - sachini-first-app-imfpush
+  - sachini-first-app-cloudantNoSQLDB
